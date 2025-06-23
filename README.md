@@ -39,7 +39,7 @@ This node:
 1. Clone the packages to your catkin workspace `src` folder:
    ```
    cd ~/catkin_ws/src
-   git clone https://github.com/TigerCTPO/qr_detector.git
+   git clone https://github.com/TigerRUS/qr_code_detector.git
    ```
 
    Install dependencies:
