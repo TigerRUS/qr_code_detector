@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="qr_listener" type="qr_listener" name="qr_listener" output="screen">
+        <param name="output_file" value="/root/ros_files/qr_coordinates.txt" />
+		<param name="qr_topic" value="/qr_detector/qr_id" />
+    </node>
+</launch>
